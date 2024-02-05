@@ -1,0 +1,84 @@
+
+html{
+    text-align: center;
+}
+
+body{
+    display: block;
+    font-size:.7em;
+}
+
+body > main{
+    margin: auto;
+    padding: 10px;
+    border: 20px solid rgba(129, 31, 31, 0.404);
+    box-shadow: 20px 20px 1px rgb(99, 95, 95);
+    width: 620px;
+    height: 620px;
+    border-radius: 20px;
+}
+
+button{
+    width: 200px;
+    height: 200px;
+    font-size: 8em;
+    box-shadow: 3px 3px 1px rgba(0, 0, 0, 0.411);
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.219);
+    color: rgb(247, 9, 120);
+    background-color: rgb(252, 242, 242);
+}
+button:hover{
+    background-color: rgb(23, 214, 80);
+    transition: .5s;
+    color: white;
+}
+
+.resetar{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    width: 600px;
+    height: 40px;
+    background-color: rgba(129, 31, 31, 0.404);
+    color: white;
+
+}
+
+.resetar:hover{
+    background-color: rgb(99, 95, 95);
+    color: white;
+}
+
+.placar1{
+    border: 5px solid rgba(129, 31, 31, 0.404);
+    border-radius: 40px;
+    width: 600px;
+    height: 120px;
+    box-shadow: 10px 10px 1px rgb(99, 95, 95);
+    margin: auto;
+    margin-bottom: 15px;
+}
+
+.placar2{
+    font-size: 2.5em;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.abaixo{
+    padding: 1px;
+}
+
+
+p{
+    font-size: 3em;
+    font-family:'Courier New', Courier, monospace;
+    font-weight: bolder;
+    margin: 6px;
+}
+
+.zerarPlacar{
+    width: 100px;
+    height: 30px;
+    font-size: .6em;
+    color: brown;
+}
